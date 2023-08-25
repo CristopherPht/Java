@@ -28,7 +28,7 @@ public class Seleccion {
         argentina.imprimirEquipo();
 
         // Imprimir resultados sin métodos
-        /* System.out.println(argentina.nombreEquipo);
+        System.out.println(argentina.nombreEquipo);
         System.out.println(argentina.grupo);
         System.out.println(argentina.clasificadosACuartos); */
 
