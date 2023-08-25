@@ -4,6 +4,6 @@ public class Main {
             int num2 = 2;
             int result;
             result = num1 + num2;
-            System.out.println("Sum = " + result);
+            System.out.println("El resultado sería = " + result);
         }
 }
