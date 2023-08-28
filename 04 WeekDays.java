@@ -6,25 +6,24 @@ class WeekDays{
         Scanner day = new Scanner(System.in);
         System.out.println("Escribe el número del día que quieres mostrar: \n");
         Day = day.nextInt();
-        System.out.println("\n");
         switch (Day) {
             case 1:
-                System.out.println("El número equivale al día: ");  
+                System.out.println("\nEl número equivale al día: ");  
                 System.out.println("\n Domingo");
             break;
 
             case 2:
-                System.out.println("El número equivale al día: "); 
+                System.out.println("\nEl número equivale al día: "); 
                 System.out.println("\nLunes");
             break;
 
             case 3:
-                System.out.println("El número equivale al día: "); 
+                System.out.println("\nEl número equivale al día: "); 
                 System.out.println("\nMartes");
             break;
 
             case 4:
-                System.out.println("El número equivale al día: "); 
+                System.out.println("\nEl número equivale al día: "); 
                 System.out.println("\nMiércoles");
             break;
 
@@ -34,12 +33,12 @@ class WeekDays{
             break;
 
             case 6:
-                System.out.println("El número equivale al día: "); 
+                System.out.println("\nEl número equivale al día: "); 
                 System.out.println("\nViernes");
             break;
 
             case 7:
-                System.out.println("El número equivale al día: "); 
+                System.out.println("\nEl número equivale al día: "); 
                 System.out.println("\nSábado");
             break;
             default: 
