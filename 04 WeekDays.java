@@ -2,10 +2,13 @@ import java.util.Scanner;
 
 class WeekDays{
     public static void main(String[] args) {
+        // Declara variables
         int Day;
+        // Se importa la clase Scanner para recibir datos
         Scanner day = new Scanner(System.in);
         System.out.println("Escribe el número del día que quieres mostrar: \n");
         Day = day.nextInt();
+        // Condicional Switch
         switch (Day) {
             case 1:
                 System.out.println("\nEl número equivale al día: ");  
