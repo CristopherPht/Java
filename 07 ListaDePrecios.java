@@ -17,7 +17,7 @@ class ListaDePrecios{
         precioRefrescos = entrada.nextInt();
         System.out.println("\nIngrese la cantidad de productos: ");
         precioJugos = entrada.nextInt();
-        System.out.println("Cantidad       " + "Quesadillas      " + "Refrescos     "+ "     Jugos");
+        System.out.println("\nCantidad       " + "Quesadillas      " + "Refrescos     "+ "     Jugos");
         for (int i = 1; i <= productos.length; i++) {
             System.out.println((i) + "              " + (precioQuesadillas * i) + "               " + (precioRefrescos * i) + "                " + (precioJugos * i));
         }        
