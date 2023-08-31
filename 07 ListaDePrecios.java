@@ -19,7 +19,7 @@ class ListaDePrecios{
         precioJugos = entrada.nextInt();
         System.out.println("Cantidad       " + "Quesadillas      " + "Refrescos     "+ "     Jugos");
         for (int i = 1; i <= productos.length; i++) {
-            System.out.println((i) + "              " + (precioQuesadillas * i) + "                " + (precioRefrescos * i) + "                " + (precioJugos * i));
+            System.out.println((i) + "              " + (precioQuesadillas * i) + "               " + (precioRefrescos * i) + "                " + (precioJugos * i));
         }        
     }
 }
