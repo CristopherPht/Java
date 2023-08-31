@@ -8,14 +8,18 @@ class ListaDePrecios{
     public static void main(String[] args){
         int cantidadProductos, precioQuesadillas, precioRefrescos, precioJugos, pantalla;
         Scanner entrada = new Scanner(System.in);
-        cantidadProductos = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de productos: "));
+        System.out.println("Ingrese la cantidad de productos a comprar: ");
+        cantidadProductos = entrada.nextInt();
         int[] productos = new int[cantidadProductos];
-        precioQuesadillas = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el precio de las quesadillas: "));
-        precioRefrescos = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el precio de los refrescos: "));
-        precioJugos = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de productos: "));
+        System.out.println("\nIngrese el precio de las quesadillas: ");
+        precioQuesadillas = entrada.nextInt();
+        System.out.println("\nIngrese el precio de los refrescos: ");
+        precioRefrescos = entrada.nextInt();
+        System.out.println("\nIngrese la cantidad de productos: ");
+        precioJugos = entrada.nextInt();
         System.out.println("Cantidad       " + "Quesadillas      " + "Refrescos     "+ "     Jugos");
-        for (int i = 0; i < productos.length; i++) {
-            System.out.println((i+1) + "              " + (precioQuesadillas * i) + "                " + (precioRefrescos * i) + "                " + (precioJugos * i));
+        for (int i = 1; i <= productos.length; i++) {
+            System.out.println((i) + "              " + (precioQuesadillas * i) + "                " + (precioRefrescos * i) + "                " + (precioJugos * i));
         }        
     }
 }
